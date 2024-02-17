@@ -8,7 +8,8 @@ import RatingCard from './components/RatingCard';
 import TrustPilotRating from './components/TrustPilotRating';
 import UserTestimonial from './components/UserTestimonial';
 import Heroimg from './components/HeroImg';
-import { user, post, profile } from './appData';
+import { user, post, profile, quizPost } from './appData';
+import QuizPost from './components/QuizPost';
 
 export default function App() {
   return (
@@ -113,6 +114,13 @@ export default function App() {
       </div>
       <div className="mb-12">
         <Heroimg />
+      </div>
+      <div>
+        {quizPost.map(({ title, p1, p2 }) => (
+          <div key={title}>
+            <QuizPost title={title} p1={p1} p2={p2}/>
+          </div>
+        ))}
       </div>
     </>
   );
