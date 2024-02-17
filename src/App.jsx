@@ -8,9 +8,7 @@ import RatingCard from './components/RatingCard';
 import TrustPilotRating from './components/TrustPilotRating';
 import UserTestimonial from './components/UserTestimonial';
 import Heroimg from './components/HeroImg';
-import { profile } from './peopleProfile';
-import { user } from './userProfile';
-import { post } from './blogPost';
+import { user, post, profile } from './appData';
 
 export default function App() {
   return (
@@ -106,14 +104,16 @@ export default function App() {
           )
         )}
       </div>
-      <div className='flex gap-8 mb-12'>
-        {post.map(({id, img, heading, title}) => (
+      <div className="flex gap-8 mb-12">
+        {post.map(({ id, img, heading, title }) => (
           <div key={id}>
             <BlogPost img={img} heading={heading} title={title} />
           </div>
         ))}
       </div>
-      <Heroimg />
+      <div className="mb-12">
+        <Heroimg />
+      </div>
     </>
   );
 }
