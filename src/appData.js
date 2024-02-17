@@ -94,5 +94,12 @@ const profile = [
   },
 ];
 
+const quizPost = [
+  {
+    title: 'The Weight Reset Program',
+    p1: 'The Weight Reset Program includes a clinically proven treatment that targets metabolism and overhauls hunger signals to help average patients ',
+    p2: "When combined with lifestyle changes, it's considered the an effective method for long-term weight loss in average patients."
+  },
+];
 
-export { user, post, profile };
+export { user, post, profile, quizPost };
