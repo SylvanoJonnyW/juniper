@@ -5,7 +5,7 @@ export default function Button({ children, className, href }) {
   return (
     <>
       <div>
-        <Link to={href} type="button" className={`px-7 py-3 rounded-md ${className} `}>
+        <Link to={href} type="button" className={`px-7 py-3 border-2 rounded-md ${className} `}>
           {children}
         </Link>
       </div>
