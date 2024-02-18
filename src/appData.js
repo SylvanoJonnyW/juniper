@@ -98,8 +98,43 @@ const quizPost = [
   {
     title: 'The Weight Reset Program',
     p1: 'The Weight Reset Program includes a clinically proven treatment that targets metabolism and overhauls hunger signals to help average patients',
-    p2: "When combined with lifestyle changes, it's considered the an effective method for long-term weight loss in average patients."
+    p2: "When combined with lifestyle changes, it's considered the an effective method for long-term weight loss in average patients.",
   },
 ];
 
-export { user, post, profile, quizPost };
+const navigation = [
+  {
+    link: 'Weight Loss',
+    direct: 'juniper-weight-loss-program',
+  },
+  {
+    link: 'Medication',
+    direct: 'juniper-medication-promo',
+  },
+  {
+    link: 'Nourish Shakes',
+    direct: 'nourish-shakes',
+  },
+  {
+    link: 'Reviews',
+    direct: 'juniper-product-reviews',
+  },
+  {
+    link: 'FAQ',
+    direct: 'faq',
+  },
+  {
+    link: 'Health Coaching',
+    direct: 'juniper-health-coaching-program',
+  },
+  {
+    link: 'BMI Calculator',
+    direct: 'bmi-calculator',
+  },
+  {
+    link: 'Learn',
+    direct: 'learn-more-about-juniper-weightloss-program',
+  },
+];
+
+export { user, post, profile, quizPost, navigation };
