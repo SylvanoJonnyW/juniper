@@ -9,7 +9,7 @@ export default function BlogPosts() {
         <div className="flex justify-between mx-12">
           <div className="relative inline-block">
             <img
-              src="/public/juniper-product.png"
+              src="/juniper-product.png"
               alt="Juniper Product"
               className="rounded-md"
               width={740}
@@ -18,7 +18,7 @@ export default function BlogPosts() {
               <div className="flex gap-4 items-center">
                 <span>
                   <img
-                    src="/public/time-vector.svg"
+                    src="/time-vector.svg"
                     alt="Rewind Clock Vector"
                     width={32}
                   />

@@ -9,7 +9,7 @@ export default function VideoPage() {
           <div>
             <Link to={'/Juniper-Weight-Loss-by-Dr-Ramy-Bishay'} target='_blank'>
               <img
-                src="/public/juniper-video-box.png"
+                src="/juniper-video-box.png"
                 alt="Dr Ramy Bishay Explaining Juniper Weight Loss program"
                 width={740}
               />
