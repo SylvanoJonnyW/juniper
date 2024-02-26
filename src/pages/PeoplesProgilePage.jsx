@@ -5,7 +5,7 @@ export default function PeoplesProfilePage() {
   return (
     <>
       <div className="max-container">
-        <div className="flex justify-between mb-12">
+        <div className="flex justify-between">
           {profile.map(people => (
             <div key={people.name}>
               <PeopleProfile
