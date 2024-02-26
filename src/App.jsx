@@ -19,6 +19,7 @@ import VideoPage from './pages/VideoPage';
 import TrustPilotRatingPage from './pages/TrustpilotRatingPage';
 import ResetProgramPage from './pages/ResetProgramPage';
 import PeoplesProfilePage from './pages/PeoplesProgilePage';
+import JuniperAppPage from './pages/JuniperAppPage';
 
 export default function App() {
   return (
@@ -101,8 +102,11 @@ export default function App() {
       <section className="bg-[#FDFCF4] py-28">
         <ResetProgramPage />
       </section>
-      <section className='bg-primary py-28'>
+      <section className="bg-primary py-28">
         <PeoplesProfilePage />
+      </section>
+      <section className="bg-white pt-28">
+        <JuniperAppPage />
       </section>
     </>
   );
