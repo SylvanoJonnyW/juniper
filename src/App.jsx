@@ -17,6 +17,7 @@ import BlogPosts from './pages/BlogPosts';
 import TestimonialPage from './pages/TestimonialPage';
 import VideoPage from './pages/VideoPage';
 import TrustPilotRatingPage from './pages/TrustpilotRatingPage';
+import ResetProgramPage from './pages/ResetProgramPage';
 
 export default function App() {
   return (
@@ -93,8 +94,11 @@ export default function App() {
       <section className="bg-primary py-28">
         <VideoPage />
       </section>
-      <section className='bg-quarternary py-28'>
-          <TrustPilotRatingPage />
+      <section className="bg-quarternary py-28">
+        <TrustPilotRatingPage />
+      </section>
+      <section className="bg-[#FDFCF4] py-28">
+        <ResetProgramPage />
       </section>
     </>
   );
