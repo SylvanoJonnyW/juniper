@@ -20,6 +20,7 @@ import TrustPilotRatingPage from './pages/TrustpilotRatingPage';
 import ResetProgramPage from './pages/ResetProgramPage';
 import PeoplesProfilePage from './pages/PeoplesProgilePage';
 import JuniperAppPage from './pages/JuniperAppPage';
+import FAQPage from './pages/FAQPage';
 
 export default function App() {
   return (
@@ -107,6 +108,9 @@ export default function App() {
       </section>
       <section className="bg-white pt-28">
         <JuniperAppPage />
+      </section>
+      <section className='bg-quarternary pt-28 pb-24'>
+        <FAQPage />
       </section>
     </>
   );
