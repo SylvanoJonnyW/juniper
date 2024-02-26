@@ -13,6 +13,7 @@ import QuizPost from './components/QuizPost';
 import { user, post, profile, quizPost, navigation } from './appData';
 import { Link } from 'react-router-dom';
 import MainPage from './pages/MainPage';
+import BlogPosts from './pages/BlogPosts';
 
 export default function App() {
   return (
@@ -74,6 +75,9 @@ export default function App() {
           </div>
         </section>
         <MainPage />
+        <section className='bg-quarternary py-40'>
+          <BlogPosts />
+        </section>
       </header>
     </>
   );
