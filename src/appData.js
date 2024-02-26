@@ -166,4 +166,73 @@ const rating = [
   },
 ];
 
-export { user, post, profile, quizPost, navigation, rating };
+const question = [
+  {
+    title:
+      'What medications are available with Juniper? Are they approved in Australia?',
+    description:
+      "Juniper offers a range of medications, but it's essential to check their approval status in Australia. Always consult with a healthcare professional for personalized advice.",
+  },
+  {
+    title: "Why doesn't Juniper mention medications by name?",
+    description:
+      'Juniper prioritizes privacy and confidentiality. While we provide information about medications, we avoid specific names to protect our user privacy.',
+  },
+  {
+    title: 'How does pricing on Juniper work?',
+    description:
+      "Juniper's pricing model varies based on individual needs. Factors like consultationm medication type, and duration influence the cost. Consult with Juniper directly for accurate pricing details.",
+  },
+  {
+    title: 'Is Juniper covered by health insurance?',
+    description:
+      "Juniper's coverage depends on the specific health insurance plan. It's advisable to verify with your provider company to determine if Juniper services are covered.",
+  },
+  {
+    title: 'What happens during the quiz and practitioner consultation?',
+    description:
+      'During the quiz, Juniper gathers relevant health information. In practitioner consultation, a licensed professional reviews your case and recommends personalized solutions.',
+  },
+  {
+    title: "Will I experience side effects on Juniper's medications?",
+    description:
+      'Side effect can vary based on individual responses. Juniper provides information about potential side effects, but consult with a healthcare provider for personalized guidance',
+  },
+];
+
+const footerLink = [
+  {
+    title: 'About',
+    direct: 'about',
+  },
+  {
+    title: 'Patient Safety',
+    direct: 'patient-safety',
+  },
+  {
+    title: 'Privacy Policy',
+    direct: 'privacy-policy',
+  },
+  {
+    title: 'Terms & Conditions',
+    direct: 'terms-conditions',
+  },
+  {
+    title: 'Help Centre',
+    direct: 'help-centre',
+  },
+  {
+    title: 'Contact Us',
+    direct: 'contact-us',
+  },
+  {
+    title: 'Zip',
+    direct: 'zip',
+  },
+  {
+    title: 'Weight Loss Motivation',
+    direct: 'weight-loss-motivation',
+  },
+];
+
+export { user, post, profile, quizPost, navigation, rating, question, footerLink };
