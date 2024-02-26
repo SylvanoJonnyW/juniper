@@ -9,8 +9,10 @@ import RatingCard from './components/RatingCard';
 import TrustPilotRating from './components/TrustPilotRating';
 import UserTestimonial from './components/UserTestimonial';
 import Heroimg from './components/HeroImg';
-import { user, post, profile, quizPost, navigation } from './appData';
 import QuizPost from './components/QuizPost';
+import { user, post, profile, quizPost, navigation } from './appData';
+import { Link } from 'react-router-dom';
+import MainPage from './pages/MainPage';
 
 export default function App() {
   return (
@@ -33,31 +35,36 @@ export default function App() {
           </div>
         </section>
         <section>
-          <div className="bg-white p-8">
+          <div className="bg-white p-8 border-b-2">
             <div className="max-container">
               <div className="flex justify-between items-center">
-                <div className="flex items-center gap-20">
-                  <img src="/Juniper-Logo.svg" alt="Juniper Logo" width={140} />
+                <div className="flex items-center gap-20 max-2xl:gap-10">
+                  <img
+                    src="/Juniper-Logo.svg"
+                    alt="Juniper Logo"
+                    width={140}
+                    className=" max-2xl:w-[120px]"
+                  />
                   <nav className="flex gap-10">
                     {navigation.map(({ link, direct }) => (
-                      <ul key={link}>
-                        <li className="text-primary text-xl">
-                          <a href={direct}>{link}</a>
-                        </li>
-                      </ul>
+                      <div key={link}>
+                        <Link to={direct} className="text-primary text-xl max-2xl:text-base">
+                          {link}
+                        </Link>
+                      </div>
                     ))}
                   </nav>
                 </div>
-                <div className="flex gap-6">
+                <div className="flex gap-6 max-2xl:gap-4">
                   <Button
                     href={'login'}
-                    className={'bg-quarternary border-stroke'}
+                    className={'bg-quarternary border-stroke max-2xl:py-2'}
                   >
                     Login
                   </Button>
                   <Button
                     href={'take-the-quiz'}
-                    className={'bg-primary border-transparent text-[#F2FFCA]'}
+                    className={'bg-primary border-transparent text-[#F2FFCA] max-2xl:py-2'}
                   >
                     Take the quiz
                   </Button>
@@ -66,6 +73,7 @@ export default function App() {
             </div>
           </div>
         </section>
+        <MainPage />
       </header>
     </>
   );
