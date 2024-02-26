@@ -7,9 +7,9 @@ export default {
         primary: '#133F26',
         secondary: '#DFF49F',
         tertiary: '#D0D8BC',
-        quarternary: "#F1F5E9",
+        quarternary: '#F1F5E9',
         'deep-maroon': '#8E1948',
-        'stroke': "#ABBAA7"
+        stroke: '#ABBAA7',
       },
     },
   },

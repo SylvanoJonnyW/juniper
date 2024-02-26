@@ -16,7 +16,27 @@
   }
 
   .twoXl-container {
-    min-width: 1536px;
+    max-width: 1536px;
+    margin: 0 auto;
+  }
+
+  .Xl-container {
+    min-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .Lg-container {
+    min-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .Mg-container {
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
+  .Sm-container {
+    min-width: 640px;
     margin: 0 auto;
   }
 }
