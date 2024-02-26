@@ -21,6 +21,7 @@ import ResetProgramPage from './pages/ResetProgramPage';
 import PeoplesProfilePage from './pages/PeoplesProgilePage';
 import JuniperAppPage from './pages/JuniperAppPage';
 import FAQPage from './pages/FAQPage';
+import FooterPage from './pages/FooterPage';
 
 export default function App() {
   return (
@@ -112,6 +113,9 @@ export default function App() {
       <section className='bg-quarternary pt-28 pb-24'>
         <FAQPage />
       </section>
+      <footer className='bg-primary py-24'>
+        <FooterPage />
+      </footer>
     </>
   );
 }
