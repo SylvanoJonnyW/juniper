@@ -16,6 +16,7 @@ import MainPage from './pages/MainPage';
 import BlogPosts from './pages/BlogPosts';
 import TestimonialPage from './pages/TestimonialPage';
 import VideoPage from './pages/VideoPage';
+import TrustPilotRatingPage from './pages/TrustpilotRatingPage';
 
 export default function App() {
   return (
@@ -91,6 +92,9 @@ export default function App() {
       </section>
       <section className="bg-primary py-28">
         <VideoPage />
+      </section>
+      <section className='bg-quarternary py-28'>
+          <TrustPilotRatingPage />
       </section>
     </>
   );
