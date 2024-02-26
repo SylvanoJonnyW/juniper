@@ -46,24 +46,28 @@ const post = [
     img: '/juniper-medication-product.png',
     heading: 'Breakthrough medication',
     title: 'Lowers appetite and improves metabolic function',
+    to: 'medication-blog'
   },
   {
     id: '09jkdvbwejpt3qcqwef',
     img: '/juniper-tracking-indicator.svg',
     heading: 'Health tracking',
     title: 'Measure your biometric health improvements',
+    to: 'health-tracking-blog'
   },
   {
     id: '02dikc4023gsv3t312vx',
     img: '/juniper-community.png',
     heading: 'Private community',
     title: 'Celebrate successes and keep each other motivated',
+    to: 'juniper-private-comunity'
   },
   {
     id: '20mcph923bkalckp2hjtr2',
     img: '/juniper-coaching.png',
     heading: 'Lifestyle coaching',
     title: 'Set the sustainable habits necessary for lifelong results',
+    to: 'lifestyle-coaching'
   },
 ];
 
@@ -94,13 +98,11 @@ const profile = [
   },
 ];
 
-const quizPost = [
-  {
-    title: 'The Weight Reset Program',
-    p1: 'The Weight Reset Program includes a clinically proven treatment that targets metabolism and overhauls hunger signals to help average patients',
-    p2: "When combined with lifestyle changes, it's considered the an effective method for long-term weight loss in average patients.",
-  },
-];
+const quizPost = {
+  title: 'The Weight Reset Program',
+  p1: 'The Weight Reset Program includes a clinically proven treatment that targets metabolism and overhauls hunger signals to help average patients',
+  p2: "When combined with lifestyle changes, it's considered the an effective method for long-term weight loss in average patients.",
+};
 
 const navigation = [
   {
