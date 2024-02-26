@@ -7,20 +7,22 @@ export default function PeopleProfile({
 }) {
   return (
     <>
-      <div className="relative inline-block">
-        <img
-          className="rounded-lg"
-          src={img}
-          alt={`${name} picture`}
-          width={380}
-        />
-        <div className="absolute bottom-5 right-5 font-medium rounded-full bg-deep-maroon text-white px-3 py-2">
-          <p className="font-medium">{position}</p>
+      <div className="max-container">
+        <div className="relative inline-block">
+          <img
+            className="rounded-lg"
+            src={img}
+            alt={`${name} picture`}
+            width={420}
+          />
+          <div className="absolute bottom-5 right-5 font-medium rounded-full bg-deep-maroon text-white px-3 py-2">
+            <p className="font-medium">{position}</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <h4 className="text-xl">{name}</h4>
-        <p className="text-lg">{level}</p>
+        <div className="pt-6">
+          <h4 className="text-2xl text-white">{name}</h4>
+          <p className="text-xl text-white">{level}</p>
+        </div>
       </div>
     </>
   );

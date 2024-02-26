@@ -18,6 +18,7 @@ import TestimonialPage from './pages/TestimonialPage';
 import VideoPage from './pages/VideoPage';
 import TrustPilotRatingPage from './pages/TrustpilotRatingPage';
 import ResetProgramPage from './pages/ResetProgramPage';
+import PeoplesProfilePage from './pages/PeoplesProgilePage';
 
 export default function App() {
   return (
@@ -99,6 +100,9 @@ export default function App() {
       </section>
       <section className="bg-[#FDFCF4] py-28">
         <ResetProgramPage />
+      </section>
+      <section className='bg-primary py-28'>
+        <PeoplesProfilePage />
       </section>
     </>
   );
