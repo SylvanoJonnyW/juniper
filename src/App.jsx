@@ -14,6 +14,7 @@ import { user, post, profile, quizPost, navigation } from './appData';
 import { Link } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import BlogPosts from './pages/BlogPosts';
+import TestimonialPage from './pages/TestimonialPage';
 
 export default function App() {
   return (
@@ -77,6 +78,9 @@ export default function App() {
         <MainPage />
         <section className='bg-quarternary py-40'>
           <BlogPosts />
+        </section>
+        <section className='bg-[#E4DCEB]'>
+          <TestimonialPage />
         </section>
       </header>
     </>

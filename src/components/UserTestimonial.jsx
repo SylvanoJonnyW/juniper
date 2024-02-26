@@ -9,7 +9,7 @@ export default function UserTestimonial({
 }) {
   return (
     <>
-      <div className="bg-white h-fit border-2 rounded-xl border-tertiary ">
+      <div className="bg-white h-[505px] border-2 rounded-xl border-tertiary ">
         <div className="p-4">
           <div className="flex justify-between items-center pb-6">
             <p className="text-2xl text-primary font-semibold">
@@ -34,7 +34,7 @@ export default function UserTestimonial({
           </div>
         </div>
         <div className="border-b-2 border-tertiary"></div>
-        <div className="p-4 pt-4">
+        <div className="p-6 pt-4">
           <p className="text-primary font-semibold text-xl w-[380px]">{`"${description}"`}</p>
         </div>
       </div>
