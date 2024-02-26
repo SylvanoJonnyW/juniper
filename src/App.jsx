@@ -15,6 +15,7 @@ import { Link } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import BlogPosts from './pages/BlogPosts';
 import TestimonialPage from './pages/TestimonialPage';
+import VideoPage from './pages/VideoPage';
 
 export default function App() {
   return (
@@ -50,7 +51,10 @@ export default function App() {
                   <nav className="flex gap-10">
                     {navigation.map(({ link, direct }) => (
                       <div key={link}>
-                        <Link to={direct} className="text-primary text-xl max-2xl:text-base">
+                        <Link
+                          to={direct}
+                          className="text-primary text-xl max-2xl:text-base"
+                        >
                           {link}
                         </Link>
                       </div>
@@ -66,7 +70,9 @@ export default function App() {
                   </Button>
                   <Button
                     href={'take-the-quiz'}
-                    className={'bg-primary border-transparent text-[#F2FFCA] max-2xl:py-2'}
+                    className={
+                      'bg-primary border-transparent text-[#F2FFCA] max-2xl:py-2'
+                    }
                   >
                     Take the quiz
                   </Button>
@@ -75,14 +81,17 @@ export default function App() {
             </div>
           </div>
         </section>
-        <MainPage />
-        <section className='bg-quarternary py-40'>
-          <BlogPosts />
-        </section>
-        <section className='bg-[#E4DCEB]'>
-          <TestimonialPage />
-        </section>
       </header>
+      <MainPage />
+      <section className="bg-quarternary py-40">
+        <BlogPosts />
+      </section>
+      <section className="bg-[#E4DCEB]">
+        <TestimonialPage />
+      </section>
+      <section className="bg-primary py-28">
+        <VideoPage />
+      </section>
     </>
   );
 }
