@@ -47,7 +47,7 @@ export default function TestimonialPage() {
                   </span>
                 </p>
               </div>
-              <Button className={'bg-primary text-white'} href={'/take-quiz'}>Take the quiz</Button>
+              <Button className={'bg-primary text-white px-6'} href={'/take-quiz'}>Take the quiz</Button>
             </div>
           </div>
         </div>

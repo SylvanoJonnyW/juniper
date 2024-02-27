@@ -70,14 +70,14 @@ export default function App() {
                 <div className="flex gap-6 max-2xl:gap-4">
                   <Button
                     href={'login'}
-                    className={'bg-quarternary border-stroke max-2xl:py-2'}
+                    className={'bg-quarternary px-6 border-stroke max-2xl:py-2'}
                   >
                     Login
                   </Button>
                   <Button
                     href={'take-the-quiz'}
                     className={
-                      'bg-primary border-transparent text-[#F2FFCA] max-2xl:py-2'
+                      'bg-primary border-transparent px-6 text-[#F2FFCA] max-2xl:py-2'
                     }
                   >
                     Take the quiz

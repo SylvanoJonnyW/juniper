@@ -23,7 +23,7 @@ export default function MainPage() {
                   <BulletPoint>Dietitian-led health coaching & support</BulletPoint>
                   <BulletPoint>30-days money-back guarantee</BulletPoint>
                 </div>
-                <Button className={'bg-primary text-white'}>Take the quiz</Button>
+                <Button className={'bg-primary text-white px-6'}>Take the quiz</Button>
                 <TrustPilotRating />
               </div>
             </div>

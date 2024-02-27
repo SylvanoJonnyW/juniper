@@ -32,7 +32,7 @@ export default function VideoPage() {
               </p>
               <Button
                 className={
-                  'bg-secondary text-primary border-transparent font-semibold'
+                  'bg-secondary px-6 text-primary border-transparent font-semibold'
                 }
                 href={'weight-gain-quiz'}
               >
