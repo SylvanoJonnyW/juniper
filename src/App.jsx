@@ -48,12 +48,14 @@ export default function App() {
             <div className="max-container">
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-20 max-2xl:gap-10">
-                  <img
-                    src="/Juniper-Logo.svg"
-                    alt="Juniper Logo"
-                    width={140}
-                    className=" max-2xl:w-[120px]"
-                  />
+                  <Link to={'/'}>
+                    <img
+                      src="/Juniper-Logo.svg"
+                      alt="Juniper Logo"
+                      width={140}
+                      className=" max-2xl:w-[120px]"
+                    />
+                  </Link>
                   <nav className="flex gap-10">
                     {navigation.map(({ link, direct }) => (
                       <div key={link}>

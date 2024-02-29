@@ -13,17 +13,24 @@ export default function MainPage() {
               <h1 className="text-6xl text-primary font-medium w-[680px] border-b-2 pb-12">
                 A medical pathway to sustainable weight loss
               </h1>
-              <div className='flex flex-col gap-6'>
-                <p className=' text-2xl w-[620px] pt-8'>
+              <div className="flex flex-col gap-6">
+                <p className=" text-2xl w-[620px] pt-8">
                   Juniper addresses weight at a biological level. Because
                   it&apos;s not a motivational issue, it&apos;s a medical one.
                 </p>
                 <div>
                   <BulletPoint>Practitioner-prescrived medication</BulletPoint>
-                  <BulletPoint>Dietitian-led health coaching & support</BulletPoint>
+                  <BulletPoint>
+                    Dietitian-led health coaching & support
+                  </BulletPoint>
                   <BulletPoint>30-days money-back guarantee</BulletPoint>
                 </div>
-                <Button className={'bg-primary text-white px-6'}>Take the quiz</Button>
+                <Button
+                  href={'take-quiz'}
+                  className={'bg-primary text-white px-6'}
+                >
+                  Take the quiz
+                </Button>
                 <TrustPilotRating />
               </div>
             </div>

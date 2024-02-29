@@ -11,11 +11,11 @@ export default function FooterPage() {
           </div>
           <div className="flex flex-col gap-8 text-white text-xl">
             <p>Symptoms</p>
-            <span>Weight Gain</span>
+            <Link to={'juniper-weight-gain-solution'}><span>Weight Gain</span></Link>
           </div>
           <div className="flex flex-col gap-8 text-white text-xl">
             <p>Products</p>
-            <span>Nourish Shakes</span>
+            <Link to={'nourish-shakes-product'}><span>Nourish Shakes</span></Link>
           </div>
           <div className="flex flex-col gap-8 text-white text-xl">
             <p>About Us</p>
