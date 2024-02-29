@@ -110,10 +110,10 @@ export default function App() {
       <section className="bg-white pt-28">
         <JuniperAppPage />
       </section>
-      <section className='bg-quarternary pt-28 pb-24'>
+      <section className="bg-quarternary pt-28 pb-24">
         <FAQPage />
       </section>
-      <footer className='bg-primary py-24'>
+      <footer className="bg-primary py-24">
         <FooterPage />
       </footer>
     </>
