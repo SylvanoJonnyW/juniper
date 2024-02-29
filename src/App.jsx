@@ -1,16 +1,6 @@
 /* eslint-disable no-unused-vars */
-import BlogPost from './components/BlogPost';
-import BulletPoint from './components/BulletPoint';
 import Button from './components/Button';
-import NumberBulletin from './components/NumberBulletin';
-import PeopleProfile from './components/PeopleProfile';
-import Rating from './components/Rating';
-import RatingCard from './components/RatingCard';
-import TrustPilotRating from './components/TrustPilotRating';
-import UserTestimonial from './components/UserTestimonial';
-import Heroimg from './components/HeroImg';
-import QuizPost from './components/QuizPost';
-import { user, post, profile, quizPost, navigation } from './appData';
+import { navigation } from './appData';
 import { Link } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import BlogPosts from './pages/BlogPosts';
